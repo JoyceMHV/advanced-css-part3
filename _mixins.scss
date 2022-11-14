@@ -1,0 +1,27 @@
+@mixin social-media-beam (){ 
+    position: fixed;
+    right: 0px;
+    width: 25px;
+    height: 18px; 
+    padding: 10px;
+    color: white;
+    text-align: center;
+    transition: 300ms width ease-in;
+    .icon { 
+        float: left; 
+        }  
+    a { 
+        color: white; 
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0ms, opacity 500ms ease-in;
+        }
+    }
+
+@mixin hover (){
+    width: 250px;
+    a {
+        visibility: visible;
+        opacity: 1;
+        } 
+    }

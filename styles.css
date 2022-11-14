@@ -1,0 +1,170 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 18px;
+  background-color: #c3cfe2;
+}
+
+.blog {
+  position: fixed;
+  right: 0px;
+  width: 25px;
+  height: 18px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  transition: 300ms width ease-in;
+  background-color: #e17b77;
+  top: 250px;
+}
+.blog .icon {
+  float: left;
+}
+.blog a {
+  color: white;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0ms, opacity 500ms ease-in;
+}
+.blog .fa-laptop-code::before {
+  content: "\f5fc";
+}
+.blog:hover {
+  width: 250px;
+}
+.blog:hover a {
+  visibility: visible;
+  opacity: 1;
+}
+
+.twitter {
+  position: fixed;
+  right: 0px;
+  width: 25px;
+  height: 18px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  transition: 300ms width ease-in;
+  background-color: #00aced;
+  top: 286px;
+}
+.twitter .icon {
+  float: left;
+}
+.twitter a {
+  color: white;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0ms, opacity 500ms ease-in;
+}
+.twitter .fa-twitter::before {
+  content: "\f099";
+}
+.twitter:hover {
+  width: 250px;
+}
+.twitter:hover a {
+  visibility: visible;
+  opacity: 1;
+}
+
+.linkedin {
+  position: fixed;
+  right: 0px;
+  width: 25px;
+  height: 18px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  transition: 300ms width ease-in;
+  background-color: #007bb6;
+  top: 322px;
+}
+.linkedin .icon {
+  float: left;
+}
+.linkedin a {
+  color: white;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0ms, opacity 500ms ease-in;
+}
+.linkedin .fa-linkedin-in::before {
+  content: "\f0e1";
+}
+.linkedin:hover {
+  width: 250px;
+}
+.linkedin:hover a {
+  visibility: visible;
+  opacity: 1;
+}
+
+.facebook {
+  position: fixed;
+  right: 0px;
+  width: 25px;
+  height: 18px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  transition: 300ms width ease-in;
+  background-color: #3b5998;
+  top: 358px;
+}
+.facebook .icon {
+  float: left;
+}
+.facebook a {
+  color: white;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0ms, opacity 500ms ease-in;
+}
+.facebook .fa-facebook-f::before {
+  content: "\f39e";
+}
+.facebook:hover {
+  width: 250px;
+}
+.facebook:hover a {
+  visibility: visible;
+  opacity: 1;
+}
+
+.github {
+  position: fixed;
+  right: 0px;
+  width: 25px;
+  height: 18px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  transition: 300ms width ease-in;
+  background-color: #333;
+  top: 394px;
+}
+.github .icon {
+  float: left;
+}
+.github a {
+  color: white;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0ms, opacity 500ms ease-in;
+}
+.github .fa-github::before {
+  content: "\f09b";
+}
+.github:hover {
+  width: 250px;
+}
+.github:hover a {
+  visibility: visible;
+  opacity: 1;
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,64 @@
+@import "./general";
+@import "./mixins";
+
+.blog {
+    @include social-media-beam();
+    background-color: #e17b77;
+    top: 250px;
+    .fa-laptop-code::before { 
+        content: "\f5fc"; 
+        }
+    &:hover {
+        @include hover();  
+        }
+    }
+
+.twitter {
+    @include social-media-beam();
+    background-color: #00aced;
+    top: 286px;
+    .fa-twitter::before {         
+        content: "\f099";
+        }
+    &:hover {
+        @include hover();  
+        }
+    }
+
+.linkedin {
+    @include social-media-beam();
+    background-color: #007bb6;
+    top: 322px;
+    .fa-linkedin-in::before {
+        content: "\f0e1"; 
+        }
+    &:hover {
+        @include hover();  
+        }
+    }
+
+.facebook {
+    @include social-media-beam();
+    background-color: #3b5998;
+    top: 358px;
+    .fa-facebook-f::before {
+        content: "\f39e"; 
+        }
+    &:hover {
+        @include hover();  
+        }
+    }
+
+.github {
+    @include social-media-beam();
+    background-color: #333;
+    top: 394px;
+    .fa-github::before {
+        content: "\f09b";
+        }
+    &:hover {
+        @include hover();  
+        }
+    }
+
+
